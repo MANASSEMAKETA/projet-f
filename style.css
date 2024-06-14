@@ -1,0 +1,481 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+   font-family: sans-serif;	
+}
+header{
+	width:100%;
+	padding:20px;
+	height:70vh;
+	background-image: url("1254877-560x373.jpg");
+	background-size:cover;
+	background-position: center;
+}
+header lions_22{
+   font-size:28px;
+   font-weight: bold;
+   
+}
+header lions_22 span {
+	
+}
+header nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-left:270px ;
+
+}
+header nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	list-style: none;
+	padding-left: 170px;
+	border-style: none;
+}
+header nav ul li{
+	padding: 20px;
+	border-style: none;
+
+}
+header nav ul li a {
+   text-decoration: none;
+   color: #111;
+   font-size: 17px;
+   
+}
+
+header nav ul li a:hover{
+	background:#D4E6F1;;
+	border:2px solid #7B7D7D;
+	border-style:none;
+}
+.couleur_de_style{
+  position: absolute;
+  left: 10;
+  right: 0;
+  bottom: 2;
+  padding:20px;
+  
+}
+form {
+	max-width: 500px;
+	padding: 2px;
+	background: #f4f4f4;
+	border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type ="text"]{
+	background-color: ;
+	color: #111;
+	padding: 1px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.pour_la{
+	border-radius: 10px;
+	border-style: none;
+	color: #111;
+	background: #D4E6F1 ;
+}
+.headers{
+	font-size: 27px;
+	display: flex;
+
+}
+
+.headers h1{
+	margin: 70px;
+	border-bottom:2px solid #111;
+	font-style: oblique;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #111;
+}
+.couleur_23{
+	margin-top: -50PX;
+	margin-left:100px;
+	border-style: none;
+	font-size:27px;
+	font-weight: bold;
+	font-family:sans-serif;
+	border-style: none;
+	border-radius:50%;
+}
+.couleur_23 p{
+  font-size: 21px;
+  font-weight: bold;
+
+}
+.button__23{
+	padding: 10px 15px;
+	border-style: none;
+	background: #111;
+	border-radius: 10px;
+}
+.button__23 a{
+	font-size: 19px;
+	font-weight: bold;
+	text-decoration: none;
+	border-style: none;
+	color:#fff;
+
+}
+
+.cours img{
+	width: 350PX;
+	height: 350px;
+	float: left;
+	margin-right: 15px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+.cours{
+	width: 95%;
+    margin: 150 auto;	
+    margin: 50px;
+}
+.cours_2 p{
+	padding: 19px;
+	color:#fff ;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.cours_2 h1{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px ;
+	font-size: 27px;
+
+
+}
+.cours_2{
+	height: 39vh;
+	border: 2px solid #111;
+	margin: 10px;
+	background: #111;
+}
+.conteneur_stockages{
+	margin: 50px;
+	width: 90%;
+	height: 40vh;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.troisiemes_conteneur img{
+	width: 250PX;
+	height: 250px;
+	border-radius: 50%;
+	align-items: center;
+	border: 2px solid #;
+}
+.deuxiemes_conteneur{
+	padding-left: 40px;
+	padding: 10px 50px;
+	height: 65vh;
+	justify-content: space-between;
+	margin-left:15px ;
+	 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+	
+}
+.deuxiemes_conteneur:hover{
+	cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+	
+}
+
+
+.deuxiemes_conteneur p{
+	border: 2px solid #111;
+	padding:10px;
+	background: #111;
+	color: #fff;
+	font-weight: bold;
+}
+.deuxiemes_conteneur button{
+	border-style: none;
+	padding: 5px 15px;
+	margin-bottom: 8px;
+	background:#D17B08 ;
+}
+.deuxiemes_conteneur button a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.grande_23{
+	margin:250px 150px 80px 70px;
+	width:90%;
+	height: 50vh;
+	background: url(Photographie-dun-avion-au-milieu-des-tours-en-noir-et-blanc-par-sasin-Tipchai.jpg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+	
+
+}
+.grande_22 {
+	padding: 50px;
+	
+}
+.grande_22 p {
+	font-size: 20px;
+    font-weight: bold;
+
+}
+.grande_22 h2{
+	font-size: 25px;
+}
+footer{
+	margin-bottom: 20px;
+	background:#111;
+	height:65vh;
+}
+.journeees{
+	display: flex;
+}
+.cool_23{
+	
+}
+
+.cool_23 p{
+	margin: 100px;
+	color: #fff;
+}
+.cool_23 h1{
+	margin: 100px;
+	color: #fff;
+
+}
+.logos_pie{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.logos_pie a{
+	list-style: none;
+	font-size: 33px ;
+	padding: 20px;
+	margin-top: -48px;
+	color: #fff;
+	
+}
+.apprpos_decouverte{
+	display: flex;
+	margin: 30px;
+	padding-left: 15px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.calcule__22{
+	margin: 10px;
+	height: 150px;
+
+}
+.calcule__22 h1{
+	text-align: center;
+	color:#111;
+
+}
+.apprpos_decouverte_22{
+	padding:10px;
+	justify-content: space-between;
+	border: 2px solid  #fff ;
+	background: #fff;
+
+}
+.apprpos_decouverte_22 a{
+	font-size: 28px;
+}
+.decouverte_22{
+	padding: 30px;
+	border: 2px solid #111;
+	box-shadow: 23px 20px 10px #111;
+}
+.sectionss{
+	width: 95%;
+	border: 2px solid #111;
+	margin: 300px 30px;
+}
+
+.poule_go{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.couleurs_22{
+ background: #111;
+	padding: 20px;
+}
+.couleurs_22 P {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: revert-layer;
+}
+.couleurs_22 h1{
+	text-align: center;
+	color: #fff;
+}
+
+.cooreueres{
+	display: flex;
+	justify-content: ;
+	padding:1px;
+
+}
+.paragraphe_lettres{
+	background: #111;
+}
+.paragraphe_lettres p{
+	font-size: 14px;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: revert-layer;
+	padding: 22px;
+	color:#fff;
+}
+.paragraphe_lettres h1{
+	color: #fff;
+	text-align: center;
+	padding: 4px;
+}
+.divettes{
+	margin-bottom: 200px;
+	text-align: center;
+}
+.applique_style input[type="password"], input[type="email"], textarea {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background:#111;
+  color: #fff;
+  margin: 2px;
+
+}
+
+.applique_style input[type="password"] {
+  background-color: #111;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.applique_style{
+	padding: 120px;
+	background: #D15D08;
+}
+.latouches_12{
+	margin: 300px;
+	display: flex;
+	justify-content: center;
+}
+.latouches_11{
+	border: 2px solid #111;
+	height: 65vh;
+	background: #111;
+}
+.latouches_11 h2{
+	padding: 30px;
+	color: #fff;
+}
+.latouches_11 p{
+	padding: 50px;
+	color: #fff;
+}
+.clef{
+	margin: 10px;
+}
+.clef h2{
+	text-align: center;
+}
+.clef h2 span{
+	color: #D38608;
+}
+.jeans_3_16{
+	display: flex;
+	
+
+}
+.clef_23 img{
+		width: 250px;
+		height:220px ;
+		margin: ;
+		border-radius:50%;
+		border:2px solid #fff ;
+}
+.clef_23 p{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: ;
+	color: #111;
+	padding: 10px;
+
+}
+.clef_23{
+	width: 30%;
+	border: 10px solid #111;
+	margin: 30px;
+	padding: 20px;
+	background: #111;
+	border-radius:  10px 11px 4px ;
+}
+.clef_24{
+	background: #fff;
+	padding: 10px;
+}
+.clef_353 button{
+	margin: 10px;
+	padding: 10px 20px ;
+	background: #D15D08;
+	border-style: none;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.clef_353 button a {
+	text-decoration: none;
+	color: #fff;
+}
+.clef_353 button :hover{
+	 color:#fff ;
+	 border: none;
+	 box-shadow: 13px  5px 15px rgba(240, 243, 244 );
+   transition: opacity 0.3s ease-in-out;
+	 background:#F0F3F4  ;
+}
+.photo_danse{
+	display: flex;
+	padding: 10px;
+}
+.chef_23{
+	margin: 10px;
+}
+.chef_24 p{
+	padding: 10px;
+	border: 2px solid #111;
+	height: 80vh;
+	color: #fff;
+}
+.chef_24 {
+	margin: 5px;
+	background: #111;
+
+}
+.chef_23 img{
+	width: 550px;
+	height: 740px;
+}

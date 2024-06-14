@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<title></title>
+</head>
+<body>
+   <div class="headers_23">
+   	<h1>MAKETA</h1>
+   	  <div class="headers_12">
+   	  	<ul>
+   	  		<li><a href="index.html">accueil</a></li>
+   	  		<li><a href="appropos.html">APPROPO</a></li>
+   	  		<li><a href="presentation.html">presentation</a></li>
+   	  		<li><a href="#">CONTACR</a></li>
+   	  	</ul>
+   	  </div>
+   </div>
+    <div class="latouches_12">
+    	<div class="latouches_11">
+
+    		<h2>couleur des toutes</h2>
+    		<p>orem ipsum dolor sit amet consectetur adipisicing elit. Qui perferendis ratione eos ipsum incidunt, ut id debitis fugiat cumque omnis,   exercitationem, dolores obcaecati maiores eaque</p>
+
+    	</div>
+    	
+    	<form class="applique_style" onsubmit="sendEmail()">
+    		<input type="email" name="email" id="email">
+    		<input type="password" name="">
+    		<textarea id="messages">le commentaire</textarea>
+    		<button><a href="">contacte</a></button>
+    	</form>
+    </div>
+    <footer>
+   	<div class="journeees">
+   		<div class="cool_23">
+   			<h1>titre</h1>
+   			<p>maiores eaque architecto delectus distinctio odio et
+   		       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores eaque architecto delectus distinctio odio et
+   		       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores eaque architecto delectus distinctio odio et
+   		    </p>
+   		</div>
+   		<div class="cool_23">
+   			<h1>titre</h1>
+   			<p>maiores eaque architecto delectus distinctio odio et
+   		       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores eaque architecto delectus distinctio odio et
+   		       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores eaque architecto delectus distinctio odio et
+   		     </p>
+   		</div>
+   		<div class="cool_23">
+   			<h1>titre</h1>
+   			 <p>maiores eaque architecto delectus distinctio odio et
+   		       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores eaque architecto delectus distinctio odio e
+   		       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores eaque architecto delectus distinctio odio et
+   		    </p>
+   		 </div>
+   	</div>
+   	<div class="logos_pie">
+   		
+   		     <a href=""><i class="fa-brands fa-facebook"></i></a> 
+				  <a href=""><i class="fa-brands fa-instagram"></i></a> 
+				  <a href=""><i class="fa-brands fa-x"></i></a>
+				  <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+			
+   	</div>
+   </footer>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script type="">
+
+   	function sendEmail(){
+      
+     Email.send({
+    Hébergeur : "smtp.gmail.com",
+    Nom d utilisateur  : "manassemaketa98@gamil.com",
+    Mot de passe : "mot de passe",
+    À : 'them@website.com',
+    De : document.getElementById("email").value,
+    Sujet : "nouvelle contact",
+    Corps : "Et voici le corps" + document.getElementById('Email').value+ "<br> message"+ document.getElementById("message").value
+}).alors(
+  message => alerte("messages envoyes ")
+);
+   	}
+
+   </script>
+</body>
+</html>

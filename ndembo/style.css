@@ -1,0 +1,344 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing:border-box;
+
+
+}
+
+body{
+	font-family:arial,helvetical,sans-serif;
+	
+
+
+}
+
+header{
+	height: 100vh;
+	width:100%;
+	background-image: url(sport---jes---agence-national-du-sport-19955.jpg);
+	background-size: cover;
+
+}
+.navbar{
+	position: absolute;
+	padding:30px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+	align-items: center;
+
+}
+.navbar a{
+	color:#111;
+	font-size:17px;
+
+}
+.navbar a:hover{
+	color:#EABC13;
+}
+.navbar .logos{
+	font-size: 3em;
+	font-weight:bold;
+
+}
+.navbar .nav_link {
+	display: flex;
+	align-items: center;
+
+}
+
+.navbar .nav_link ul{
+ display: flex;
+ right: 50px
+}
+.navbar .nav_link ul li{
+ display: flex;
+ margin: 0 25px;
+}
+.containaire{
+	position: absolute;
+	top:50%;
+	left: 50px;
+	transform translate(-50 , -50); 
+	color: #fff;
+}
+
+.containaire h1{
+	font-weight: bold;
+	font-size: 70px;
+	text-decoration:underline;	
+}
+.containaire p{
+	font-size: 15px;
+	text-shadow: 20px ;
+}
+.containaire .btn_cole{
+	position: absolute;
+	font-size:15px;
+	padding: 10px 10px;
+	background-color: #E6EE0C;
+	text-decoration: none;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	border-radius:25px;
+	top:120%;
+}
+.containaire .btn_cole a{
+	font-size: 17px;
+	color: #625A07;
+}
+.containaire a:hover{
+	color: #E89A11;
+}
+.leopard{
+	margin:50px;
+	width:98%;
+	margin:18px;
+	display: flex;
+	height: 50vh;
+	justify-content: center; 
+	cursor: pointer;
+	background:#fff;
+}
+.leopard img{
+	width: 250px;
+	height: 380px;
+	float: left;
+	margin-right: 2%;
+	
+}
+.leopard h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+.leopard_2{
+	
+	margin:12px;
+	background:#111;
+}
+.leopard_2 p{
+	color: #FFF;
+	font-size:19;
+	text-align: center;
+	margin: 5PX;
+}
+.containaire_1{
+ margin:28px; 
+ width:97%; 
+ height:80vh;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ padding-left:280px;
+ border:solid 2px #111;
+ background-color:#424949;
+ 
+ 
+ 
+
+}
+.containaires_2{
+	width:98%;
+	margin: 0 400px;
+	margin:19%;
+	left:500px;
+	right:500px;
+	background-color: #123;
+
+}
+
+.containaires_4{
+	width:320px;
+	border-radius:15PX;
+	background: #F6F6F6;
+	border:solid 2px #111; 
+	margin-left:-250px;
+	padding-left:;
+
+
+}
+.img_contenat,
+.carte_contenat{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding:10px 14px;
+}
+.overlays{
+	position:absolute;
+	left:0; 
+	top:0;
+	height:100%;
+	width: 100%;
+	background-color:#4070F4;
+	border-radius:11px 11px 0px 15px;
+}
+.overlays::before,
+.overlays:: after{
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom:-40px;
+	height:40px;
+	width: 40px;
+	background:#4070F4;
+
+}
+.overlays::after{
+	border-radius:0 25px 0  0;
+	background-color:#FFF;
+
+}
+.img_contenat{
+	position: relative;
+	grid-row:5px;
+	padding: 25px 0;
+
+}
+.card-img{
+	position: relative;
+	width:150px;
+	height:150px;
+	width: 150PX;
+	padding: 4px;
+	border-radius:30%;
+}
+.card-img img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+	 border-radius:50%;
+	 border:4px solid #111;
+	 right: 50%;
+}
+.carte_contenat h2{
+	font-size:30px;
+	font-weight: 700px;
+	align-items: center;
+	color:#111; 
+}
+.carte_contenat button{
+	margin: 5px;
+	padding: 10px 16px;
+	color:#111;
+	background:#4070F4;
+	cursor: pointer;
+	border-style: none;
+	border-radius:5px;
+}
+..carte_contenat button:hover{
+	background:#
+}
+.carte_contenat p{
+	padding-left: 30px; 
+	font-weight:700px;
+	font-size: 18px;
+}
+
+.equipes{
+	position: absolute;
+	top:160%;
+	left:45%;
+	font-size: 35px;
+}
+.equipes h1{
+	padding-bottom:-120px;
+	color:#fff; 
+	text-align: center;
+	padding-bottom:-20%;
+}
+.selection{
+	margin:20px;
+	background-color: #111;
+	display: flex;
+	justify-content: space-between;
+	height:56vh;
+	padding: 40px;
+	width:97%;
+
+
+}
+.selection h1{
+	padding: 20px;
+	width:28%;
+	color:#fff;
+	font-size: 50px;
+	font-weight:800px; 
+	background-color: #123;
+}
+.selection p{
+	padding: 20px;
+	color: #fff;
+}
+.selection img{
+	height:350px;
+	width: 350px;
+}
+footer{
+	background-color:#2C3E50;
+
+}
+.footercontainer{
+	width:100%;
+	padding:70PX 30px 20px; 
+}
+.socialicone{
+	display: flex;
+	justify-content: center;
+}
+.socialicone a {
+	text-decoration:none;
+	padding: 10px;
+	background-color: #FFF;
+	margin:10px;
+	border-radius:50%;
+}
+.socialicone a i{
+	font-size:2em;
+	color:#111;
+	opacity:0.9;
+}
+.socialicone a:hover{
+	background-color:#111;
+	transition:0.5s;
+
+}
+.socialicone a:hover i{
+	color: #fff;
+	transition:0.5s;
+}
+.footernav{
+	margin: 30px 0;
+}
+.footernav ul {
+	display: flex;
+	justify-content: center;
+	color:#fff;
+}
+.footernav ul li a{
+	color:#fff;
+	margin:20px;
+	text-decoration:none;
+	font-size:1.3em;
+	opacity:0.7;
+	transition: 0.5;
+}
+.footernav ul li :hover{
+	opacity:1;
+}
+.footer_buttons{
+	width:100%;
+	background-color:#111;
+	height:5vh;
+}
+.footer_buttons p{
+	text-align: center;
+	color:#FFF;
+}
